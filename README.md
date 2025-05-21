@@ -27,19 +27,29 @@ This project predicts the aqueous solubility (logS) of a compound from its SMILE
 ## 📂 Project Structure
 
 solubility-predictor/
+
 │
 ├── data/
+
 │ └── solubility_dataset.csv # Dataset with SMILES and logS
+
 │
 ├── models/
+
 │ └── trained_model.pkl # Pre-trained ML model
+
 │
 ├── scripts/
+
 │ ├── feature_generator.py # Generates RDKit descriptors
+
 │ ├── train_model.py # Trains and saves model
+
 │ └── predict.py # Loads model and predicts solubility
+
 │
 ├── app.ipynb # Jupyter notebook for end-to-end demo
+
 └── README.md
 
 ## How It Works
